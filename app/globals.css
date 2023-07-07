@@ -1,0 +1,86 @@
+.mainHeader{
+  background-color: #220D70;;
+  border-radius: 0 0 40px 0px;
+}
+.section{
+  height: 400px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.section1{
+  position: relative;
+  padding: 30px 80px;
+  background: url('/background.png') no-repeat center;
+  /* background-image: '/background.png'; */
+}
+.section2{
+  position: relative;
+  padding: 30px 80px;
+ background-color: black;
+ color: white;
+  /* background-image: '/background.png'; */
+}
+.cardBackground{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 362px;
+  height: 393px;
+  border: 4px solid red;
+  border-image: linear-gradient(130deg, #FF56F6 18.31%, #B936EE 43.26%, #3BACE2 85.44%, #406AFF 100%) 1;
+  flex-shrink: 0;
+  background-color: #111843;
+  backdrop-filter: blur(25px);
+}
+.bidButton{
+  background: linear-gradient(130deg, #FF56F6 18.31%, #B936EE 43.26%, #3BACE2 85.44%, #406AFF 100%);
+  box-shadow: 0px 4px 97px 0px rgba(255, 86, 246, 0.51);
+  backdrop-filter: blur(96px);
+  ;
+}
+.card1{
+  display: flex;
+  border-radius: 15px;
+background: linear-gradient(180deg, rgba(255, 255, 255, 0.40) 0.55%, rgba(255, 255, 255, 0.04) 100%);
+backdrop-filter: blur(21px);
+width: 600px;
+height: 200px;
+flex-shrink: 0;
+justify-content: space-between;
+}
+.img3{
+  position: absolute;
+  top: -80px;
+  right: 0;
+}
+.img2{
+  position: absolute;
+  top: -80px;
+  right: -20px;
+}
+.img1{
+  position: absolute;
+  top: -80px;
+  right: -40px;
+}
+.manimg{
+  display: flex;
+    justify-content: center;
+    align-items: end;
+}
+.blurCard{
+position: relative;
+  top: -80px;
+  left: 45px;
+}
+.blurTheme{
+  border-radius: 15px;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.40) 0.55%, rgba(255, 255, 255, 0.04) 100%);
+  backdrop-filter: blur(21px);
+  width: 279.556px;
+  height: 175px;
+}
+.footer{
+  padding: 20px 100px;
+}
